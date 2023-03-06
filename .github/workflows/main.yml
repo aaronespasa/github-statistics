@@ -51,6 +51,5 @@ jobs:
         git config --global user.email "github-statistics[bot]@aaronespasa.github.io"
         git add .
         # Force the build to succeed, even if no files were changed
-        git commit -m 'Update generated files' || true
-        git pull
+        git commit -m '✨ Update generated files' || true
         git push
